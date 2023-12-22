@@ -1,0 +1,113 @@
+*{padding :0;
+    margin:0;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(122, 216, 223) ;
+    
+    margin:5px 0;
+    padding:20px 30px;
+    
+
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    color:rgb(49, 47, 47);
+  
+    
+}
+#title-color{
+    color:white;
+}
+.nft-logo{
+    height: 80px;
+    margin:20px;
+}
+
+.btn{
+ padding:5px 10px;
+ border: 2px solid black;
+ box-shadow: 2px 2px black;
+ font-weight: bold;
+ background-color: whitesmoke;
+ cursor: pointer;
+ border-radius: 5px;
+ 
+ 
+}
+.log-btn{
+    background-color: blue;
+    color: white;  
+}
+.main-content{
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.nft-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+.icon{
+    height: 150px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card-btn button{
+    background-color: rgb(121, 157, 223);
+    color: white;
+    border: 2px solid black;
+    box-shadow:2px 2px black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.card-btn p{
+    margin-bottom:20px;
+    font-size: 20px;
+}
+.cookies{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    padding: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 880px;
+
+}
+.cookies p{
+    font-size: 22px;
+    margin: 0px 25px;
+    width: 600px;
+}
+.accept{
+    background-color: rgb(184, 105, 118);
+    color: white;
+    
+    margin: 0 30px;
+}
+p + button {
+    background-color: rgb(202, 104, 153);
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+    width: 100px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+     <!-- navbar  -->
+        <div class="nav">
+          <div class="nav-title">
+            <img src="images\images\nft-logo.png" alt="nftLogo" class="nft-logo">
+            <h1><span id="title-color"> NFT</span>Store</h1>
+          </div>
+          <div class="nav-btn">
+            <button class="btn" onclick="signIn(this)">Register</button>
+            <button class="btn log-btn"  onclick="signIn(this)"  id="login">Login </button>
+          </div>
+        </div>
+    
+      <!-- main content -->
+        <div class="main-content">
+            <div class="nft-card">
+                <img src="images\images\1.jpg" alt="img1" class="icon">
+                <h1> Price:5 M $</h1>
+                <div class="card-btn">
+                    <p ><span id="nb-like1">5 Like</span></p>
+                     <div>
+                       <button onclick="increment()">Likes</button>
+                       <button>Buy</button>
+                     </div>
+                </div>
+            </div>
+            <div class="nft-card">
+                <img src="images\images\2.jpg" alt="img1" class="icon" 
+                     onmouseover="changeImage(this)" onmouseout="changeImage2(this)">
+                <h1> Price:3 M $</h1>
+                <div class="card-btn">
+                    <p><span id="nb-like2">0 Like</span></p>
+                    <div class="like-buy">
+                      <button onclick="increment()" >Likes</button>
+                      <button>Buy</button>
+                    </div>
+                </div>
+            </div> 
+            <div class="nft-card">
+               <img src="images\images\3.jpg" alt="img1" class="icon">
+                <h1> Price:7 M $</h1>
+                <div class="card-btn"> 
+                    <p><span id="nb-like3">0 Like </span></p>
+                    <div class="like-buy">
+                      <button onclick="increment()">Likes</button>
+                      <button>Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cookies">
+            <p>This site make use of  third-party cookies. By clicking "I Accept"
+                you agree to the terms outlined in our <a href="#">cookies policy</a>
+            </p>    
+             <button class="accept">I Accept</button>
+           
+        </div>
+
+    </div> 
+    <script src="C:\Users\ASUS\Documents\nftstore\script.js"></script>
+</body>
+</html>
